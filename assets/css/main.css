@@ -533,6 +533,15 @@
 				border:2px solid rgba(255,255,255,.4);
 				padding:8px 10px;
 				font-weight:bold;
+				background: rgba(0,0,0,.4);
+				margin:0 4px 0 0;
+			}
+			#header .guides a .fa{
+				display:none;
+			}
+
+			#header .guides a:hover{
+				background: #000;
 			}
 
 			#header .guides a .title{
