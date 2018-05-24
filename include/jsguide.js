@@ -1,3 +1,5 @@
+setTimeout(function(){window.location.reload()}, 3000);
+
 window.initStyleGuide = function(init) {
   // Runs the callback on every element matched by the query selector.
   function find(querySelector, callback) {
@@ -54,3 +56,4 @@ window.initStyleGuide = function(init) {
       'run_prettify.js';
   document.body.appendChild(pretty);
 }.bind(null, window.initStyleGuide);
+
