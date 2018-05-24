@@ -1,4 +1,7 @@
-setTimeout(function(){window.location.reload()}, 3000);
+setTimeout(function(){
+  /\?dev/g.test(window.location.href) && window.location.reload()
+}, 3000);
+
 
 window.initStyleGuide = function(init) {
   // Runs the callback on every element matched by the query selector.
